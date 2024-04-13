@@ -1,0 +1,5 @@
+// This is the default settings file for Hollo Clicker
+{
+    "background-color": "#ffffff",
+    "log-stuff": true
+}
