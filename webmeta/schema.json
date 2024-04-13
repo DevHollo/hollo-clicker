@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "background-color": {
+        "type": "string",
+        "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+      },
+      "log-stuff": {
+        "type": "boolean"
+      }
+    },
+    "required": ["background-color", "log-stuff"],
+    "additionalProperties": false
+}
